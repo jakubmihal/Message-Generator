@@ -1,6 +1,6 @@
 # Mixes Messages
 
-This Project aims to generate random weather forecast for a week ahead.
+This Project aims to generate random weather forecast for a random day in a week ahead.
 
 ## Table of Contents
 
@@ -15,6 +15,7 @@ Project is created with:
 * JavaScript
 * Markdown
 * Git and GitHub
+* Node
 
 ## Launch
 
@@ -22,7 +23,7 @@ I started this project on 3rd of April 2021 as I was progressing through Codecad
 
 ## Project status
 
-I'm done with README, currently working on Script.
+Project was finished on 4th of April 2021.
 
 ## Sources
 
