@@ -23,7 +23,7 @@ I started this project on 3rd of April 2021 as I was progressing through Codecad
 
 ## Project status
 
-Project was finished on 4th of April 2021.
+Project finished on 4th of April 2021.
 
 ## Sources
 
