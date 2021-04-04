@@ -10,3 +10,6 @@ const storeMessageComponents = {
     cloudConditions: ['sunny', 'mostly sunny', 'partly sunny', 'mostly cloudy', 'cloudy']
 }
 
+// array that stores randomly choosed components
+let storeComp = []
+
