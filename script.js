@@ -1,6 +1,12 @@
 //function that generates random number
 function ranNumGen(num) {
-    return Math.floor(Math.random() * num);
+    return Math.floor(Math.random() * num)
+}
+
+// Format array into a sentence
+function format(array) {
+    const formated = array.join(' ')
+    return formated
 }
 
 // object that stores arrays with message components
@@ -18,26 +24,20 @@ for(let i in storeMessageComponents) {
     let index = ranNumGen(storeMessageComponents[i].length)
 
 
-//switch through object's properties and push them to storedComp array
-switch(i) {
-    case 'days':
-        storeComp.push(`On ${storeMessageComponents[i][index]}`)
-        break
-    case 'temperature':
-        storeComp.push(`is going to be ${storeMessageComponents[i][index]} degrees Celsius`)
-        break
-    case 'cloudConditions':
-        storeComp.push(`and cloud condition will be ${storeMessageComponents[i][index]}.`)
-        break
-    default:
-        storeComp.push(`Add more information.`)
+    //switch through object's properties and push them to storedComp array
+    switch(i) {
+        case 'days':
+            storeComp.push(`On ${storeMessageComponents[i][index]}`)
+            break
+        case 'temperature':
+            storeComp.push(`is going to be ${storeMessageComponents[i][index]} degrees Celsius`)
+            break
+        case 'cloudConditions':
+            storeComp.push(`and cloud condition will be ${storeMessageComponents[i][index]}.`)
+            break
+        default:
+           console.log('Huh how did I get there?!')
     }
 }
 
-// Format array into a sentence
-function format(array) {
-    const formated = array.join(' ')
-    console.log(formated)
-}
-
-format(storeComp)
+console.log(format(storeComp))
